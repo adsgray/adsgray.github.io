@@ -10,7 +10,7 @@ There are some posts-in-progress in the **\_drafts** folder and I'd prefer that 
 not see the light of day until they are complete. On the other hand I'd like
 to store them on github along with the rest of the repository.
 
-I'm trying out git-crypt to encrypt the files in the **\_drafts** directory so that
+I'm trying out [git-crypt](https://github.com/AGWA/git-crypt) to encrypt the files in the **\_drafts** directory so that
 I can store them in the repository and edit them freely but not disclose their
 contents until they are ready. 
 
