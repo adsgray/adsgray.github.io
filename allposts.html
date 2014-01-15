@@ -5,7 +5,7 @@ layout: default
 <ul class="list-unstyled">
     {% for post in site.posts %}
     <li>
-    <span>{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>{% if post.allsummary %} <span class="text-muted"><small>{{ post.allsummary }}</small></span>{% endif %}
+    <small>{{ post.date | date: "%Y-%m-%d" }}</small> <a href="{{ post.url }}">{{ post.title }}</a>{% if post.allsummary %} <span class="text-muted"><small>{{ post.allsummary }}</small></span>{% endif %}
     </li>
     {% endfor %}
 </ul>
