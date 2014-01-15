@@ -1,0 +1,21 @@
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+            <h3 class="panel-title">Recent Posts</h3>
+    </div>
+      <div class="panel-body">
+
+<ul class="list-unstyled">
+    {% for post in site.posts offset: 0 limit: 5  %}
+    <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<p class="text-right"><small>
+    <a href="/allposts.html"><span class="glyphicon glyphicon-list"></span></a>
+</small></p>
+
+    </div>
+</div>
