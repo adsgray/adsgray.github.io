@@ -8,4 +8,4 @@
 ## Features
 * encrypted drafts with [git-crypt](https://github.com/AGWA/git-crypt)
 * RSS feed from [snaptortoise jekyll-rss-feeds](https://github.com/snaptortoise/jekyll-rss-feeds)
-* Google Analytics
+* TODO: Google Analytics
