@@ -2,8 +2,13 @@
 layout: default
 ---
 <div class="page-header">
-    <h1 class="text-right">{{ page.title }}{% if page.subtitle %} <span class="glyphicon glyphicon-flash"></span> <small>{{ page.subtitle }}</small>{% endif %}</h1>
-    <p class="text-right"><small>{{ page.date | date: "%Y-%m-%d" }}</small></p>
+    <h1 class="text-left">{{ page.title }}</h1>
+        {% if page.subtitle %} 
+        <p class="text-muted">
+        <span class="glyphicon glyphicon-flash"></span> <small>{{ page.subtitle }}</small>
+        </p>
+        {% endif %}
+    <p class="text-left"><small>{{ page.date | date: "%Y-%m-%d" }}</small></p>
 </div>
 
 {{ content }}
@@ -14,11 +19,10 @@ layout: default
         <ul>
         {% for repo in page.githubrepo %}
         <li style="list-style-type:none">
-        <span class="glyphicon glyphicon-book"></span> 
         <!-- 
         <span class="label label-default">code</span> 
         -->
-        <a href="https://github.com/adsgray/{{ repo }}">{{ repo }}</a></li>
+        <a href="https://github.com/adsgray/{{ repo }}"><span class="glyphicon glyphicon-book"></span> {{ repo }}</a></li>
         {% endfor %}
         </ul>
     </div>
