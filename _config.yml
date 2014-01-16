@@ -16,3 +16,7 @@ kramdown:
 
 
     # smart_quotes: lsquo,rsquo,ldquo,rdquo
+    
+name: Andrew Gray Blog
+description: A Blog about Computer Programming
+url: http://adsgray.github.io
