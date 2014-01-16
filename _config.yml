@@ -5,6 +5,7 @@ exclude:
     - serve.sh
     - Gemfile
     - Gemfile.lock
+    - README.md
 timezone: America/Vancouver
 encoding: UTF8-MAC
 
