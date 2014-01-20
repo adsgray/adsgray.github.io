@@ -2,7 +2,7 @@
 layout: post
 title: spawn_detached_thread
 allsummary: ancient C code
-githubrepo: [CServer]
+githubrepo: [gw_malloc, CServer]
 ---
 This was one of my favourite C functions ever. I don't remember when I first wrote it but I think
 I recreated it at least a couple of times on different projects (possibly for different employers):
